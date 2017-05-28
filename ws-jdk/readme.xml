@@ -1,1 +1,2 @@
 利用jdk，实现WebService的服务端
+其实就是jax-ws实现WebService
