@@ -1,0 +1,8 @@
+此项目 是参考http://clq9761.iteye.com/blog/976029/来做的；
+由于定制发布是使用的打成arr包的方式，借助Apache提供的axis2发布平台来发布，所以在日常工作中可能很少会这样使用，应该是整合到项目中，随项目一起
+发布比较好；
+然后在网上找了一些教程，大多是将Apache提供的axis2发布平台中的WEBINF目录下的conf、services、moudles几个文件夹考到自己项目的WEBINF目
+录下，然后在services目录下创建/任意名称/META-INFF/services.xml,然后就可以随项目一起发布了，但是试了几次，都没有成功，也许是我的axis2
+的版本太新，我用的1.7
+
+所以这个项目时不成功的；
