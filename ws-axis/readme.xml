@@ -1,0 +1,2 @@
+这是一个完整的axis编写的服务端的项目；
+其中WEB-INF目录下有server-config.xml,lib目录下有axis1.4依赖包
