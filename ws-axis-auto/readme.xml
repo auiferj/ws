@@ -1,0 +1,2 @@
+此项目是用eclipse自带的WebService工具生成的服务端项目；
+也就是先建一个maven web项目，然后new file WebService，通过图形化界面生成的一个WebService服务；
