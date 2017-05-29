@@ -1,0 +1,5 @@
+访问路径：
+http://localhost:8080/ws-cxf-spring/webservice/userWS?wsdl
+
+查看发布的所有服务：
+http://localhost:8080/ws-cxf-spring/webservice

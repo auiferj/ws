@@ -1,0 +1,14 @@
+这个项目时直接在ws-jdk(jax-ws)的基础上没有做任何改动，只是添加了CXF的jar包之后,就可以通过CXF实现WebService，
+因为CXF支持jax-ws的；
+在使用main方法发布服务之后，可以看到控制台日志已经使用了CXF的包；
+五月 29, 2017 11:35:49 下午 org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+信息: Creating Service {http://ws_cxf.service.google.com/}HelloWSImplService from class com.google.service.ws_cxf.HelloWS
+五月 29, 2017 11:35:50 下午 org.apache.cxf.endpoint.ServerImpl initDestination
+信息: Setting the server's publish address to be http://localhost:8989/ws_jdk/hellows
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+发布WebService成功！
+
+访问路径：
+http://localhost:8989/ws_jdk/hellows?wsdl
