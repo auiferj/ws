@@ -1,0 +1,2 @@
+将服务器端rmi中MyRemote.java接口放入客户端相应包结构中；
+这一条不在需要了，jdk1.5之后动态生成sub文件(将服务器端rmi中MyRemoteImpl.class文件执行rmic MyRemoteImpl生成MyRemoteImpl_Sub.class,并放入客户端的classpath中相应目录下)

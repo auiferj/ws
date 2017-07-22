@@ -1,0 +1,4 @@
+com\rmi\HelloService.class
+com\rmi\ServiceMain.class
+com\rmi\CustomerSocketFactory.class
+com\rmi\HelloServiceImpl.class
