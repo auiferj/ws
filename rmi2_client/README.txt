@@ -1,2 +1,0 @@
-将服务器端的接口类HelloService.java放入客户端的包目录中；
-不需要这一条(将服务器端rmi2中的接口实现类HelloServiceImpl.class文件执行rmic HelloServiceImpl生成 HelloServiceImpl_Sub.class,并将HelloServiceImpl_Sub.class放入客户端classpath相应的包目录中)；
